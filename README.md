@@ -10,7 +10,7 @@
 ### Pasos
 
 - Ejecutar `npm install` para instalar las dependencias del proyecto.
-- Abrir ADV Manager, configurar un dispositivo virtual y ejecutarlo.
+- Abrir ADV Manager, configurar un dispositivo virtual (Pixel 4 API 30) y ejecutarlo.
 - Abrir Appium y ejecutar el servidor.
 - Ejecutar `npm run android-browser` para correr los tests.
 - Ejecutar `npm run allure` para crear el reporte.
