@@ -1,0 +1,22 @@
+{
+    "name": "lemon-frontend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "android-browser": "wdio run config/wdio.android.browser.conf.js",
+        "allure": "allure generate reports/allure-results -o reports/allure-report-html --clean"
+    },
+    "author": "Leandro",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.16.13",
+        "@wdio/appium-service": "^7.16.13",
+        "@wdio/cli": "^7.16.13",
+        "@wdio/local-runner": "^7.16.13",
+        "@wdio/mocha-framework": "^7.16.13",
+        "allure-commandline": "^2.17.2",
+        "wdio-chromedriver-service": "^7.2.6",
+        "xmultiple": "^1.0.0"
+    }
+}
